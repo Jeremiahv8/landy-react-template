@@ -30,6 +30,8 @@ const Header = ({ t }) => {
       setVisibility(false);
     };
     return (
+      {/*
+      
       <Fragment>
         <S.CustomNavLinkSmall onClick={() => scrollTo("about")}>
           <S.Span>{t("About")}</S.Span>
@@ -49,6 +51,7 @@ const Header = ({ t }) => {
           </S.Span>
         </S.CustomNavLinkSmall>
       </Fragment>
+      */}
     );
   };
 
